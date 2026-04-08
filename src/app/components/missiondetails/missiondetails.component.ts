@@ -150,6 +150,7 @@ export class MissionDetailsComponent implements OnInit {
 
       this.spacexService.getLaunchById(id).subscribe({
         next: (mission) => {
+          console.log('Mission loaded:', mission);
           this.mission = mission;
           this.loading = false;
         },

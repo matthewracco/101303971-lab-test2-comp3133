@@ -4,6 +4,8 @@ node_modules/
 /out-tsc/
 /coverage/
 
+.angular/cache/
+
 .DS_Store
 Thumbs.db
 
