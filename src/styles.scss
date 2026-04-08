@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: dimgray;
+  color: white;
+}
+
+body {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+mat-toolbar.app-toolbar {
+  background: rebeccapurple;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  min-height: calc(100vh - 64px);
+  padding: 2rem 1rem 3rem;
+}
+
+a {
+  color: rebeccapurple;
+}
+
+button {
+  font-family: inherit;
+}
+
+mat-card {
+  background: darkslategray;
+  color: white;
+  border: 1px solid gray;
+}
+
+input.mat-input-element {
+  color: white;
+}
+
+.mat-flat-button,
+.mat-button,
+.mat-raised-button,
+button[mat-flat-button],
+button[mat-raised-button] {
+  color: white;
+}
+
+button.mat-flat-button.mat-primary,
+button.mat-raised-button.mat-primary {
+  background: purple;
+}
+
+button.mat-button.mat-primary {
+  color: rebeccapurple;
+}
